@@ -32,3 +32,6 @@ TO
 IDENTIFIED BY 
 'password_of_the_user';
 ```
+
+Edit `/etc/mysql/mysql.conf.d/mysqld.cnf` to enable access of `mysql` from other system in this case docker image  
+```bind-address            = 0.0.0.0```
